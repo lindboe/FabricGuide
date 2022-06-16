@@ -18,6 +18,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import RTNCenteredText from 'rtn-centered-text/js/RTNCenteredTextNativeComponent.ts';
 
 import {
   Colors,
@@ -77,6 +78,10 @@ const App = () => {
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
+    <RTNCenteredText
+      text="Hello World!"
+      style={{ width: '100%', height: 30 }}
+    />
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>

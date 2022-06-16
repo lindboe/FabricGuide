@@ -1,5 +1,5 @@
 {
-  "name": "rnt-centered-text",
+  "name": "rtn-centered-text",
   "version": "0.0.1",
   "description": "Showcase a Fabric Component with a centered text",
   "react-native": "js/index",
@@ -29,7 +29,7 @@
     "react-native": "*"
   },
   "codegenConfig": {
-    "name": "RNTCenteredTextSpecs",
+    "name": "RTNCenteredTextSpecs",
     "type": "all",
     "jsSrcsDir": "js",
     "android": {

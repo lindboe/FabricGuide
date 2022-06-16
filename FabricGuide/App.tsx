@@ -18,7 +18,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import RTNCenteredText from 'rtn-centered-text/js/RTNCenteredTextNativeComponent.ts';
+import RTNCenteredText from 'rtn-centered-text/js/RTNCenteredTextNativeComponent.js';
 
 import {
   Colors,
